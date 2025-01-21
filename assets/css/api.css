@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    padding: 10px;
+  }
+  th {
+    background-color: #f4f4f4;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+.header{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.exit-div{
+    display: flex;
+    direction: rtl;
+}
+.exit{
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.exit:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.623);
+    color: rgba(255, 255, 255, 0.635);
+}
+.address-data{
+  display: flex;
+      flex-direction: column;
+      gap: 7px;
+}
+.company-data{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+thead th {
+  text-align: center;
+}
